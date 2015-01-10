@@ -1,0 +1,12 @@
+# Site settings
+title: 360 Giving
+email: 360giving@practicalparticipation.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  360 Giving aims to help UK grant makers and philanthropists to publish their grant information online in an easy to use way. The 360 Giving Data Standard provides a common approach for that publishing.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://threesixtygiving.github.io" # the base hostname & protocol for your site
+twitter_username: timdavies
+github_username:  threesixtygiving
+
+# Build settings
+markdown: kramdown
