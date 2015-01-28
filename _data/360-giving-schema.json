@@ -60,7 +60,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "What was information about this transaction last updated.",
+          "description": "When information about this transaction was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
@@ -150,7 +150,8 @@
           "type": "array",
           "description": "A gazeteer entry to identify this location.",
           "weight": 5,
-          "title": "Gazeteer Entry"
+          "title": "Gazeteer Entry",
+          "rollUp": ["vocabulary","code"]
         },
         "dateModified": {
           "format": "date-time",
@@ -332,9 +333,9 @@
         },
         "addressRegion": {
           "type": "string",
-          "description": "County or state.",
+          "description": "County",
           "weight": 3.3,
-          "title": "County/State"
+          "title": "County"
         },
         "addressCountry": {
           "type": "string",
@@ -347,6 +348,12 @@
           "description": "Postal code (please try and provide a post code whenever possible)",
           "weight": 3.4,
           "title": "Postal Code"
+        },
+        "telephone":{
+         "type":"string",
+         "description":"Contact phone number.",
+         "weight":3.5,
+         "title": "Phone Number"
         },
         "alternateName": {
           "type": "string",
@@ -509,6 +516,16 @@
          "weight": 5.04,
          "title": "Amount Disbursed"
     },
+    "awardDate": {
+      "items": {
+        "$ref": "#/definitions/Event"
+      },
+      "type": "array",
+      "description": "-",
+      "weight": 5.041,
+      "title": "Award Date",
+      "rollUp": ["startDate"]      
+    },
     "plannedDates": {
       "items": {
         "$ref": "#/definitions/Event"
@@ -516,7 +533,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Planed Dates",
+      "title": "Planned Dates",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
@@ -526,7 +543,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Actual dates"
+      "title": "Actual Dates"
     },
     "recipientOrganization": {
       "items": {
@@ -546,7 +563,7 @@
       "description": "-",
       "weight": 6.01,
       "title": "Beneficiary Location",
-      "rollUp": ["name","countryCode","point"]
+      "rollUp": ["name","countryCode","point","gazeteerEntry"]
     },
     "fundingOrganization": {
       "items": {

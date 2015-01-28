@@ -4,7 +4,7 @@ title: Publish
 permalink: /publish/
 ---
 
-Guidance on how to publish your own data.
+# Publish your data
 
 
 

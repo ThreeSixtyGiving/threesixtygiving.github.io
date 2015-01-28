@@ -1,0 +1,6 @@
+[submodule "assets/standard"]
+	path = assets/standard
+	url = https://github.com/ThreeSixtyGiving/standard.git
+[submodule "js/docson"]
+	path = js/docson
+	url = https://github.com/lbovet/docson.git
