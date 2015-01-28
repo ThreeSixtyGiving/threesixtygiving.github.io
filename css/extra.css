@@ -57,3 +57,25 @@
     background: #336699;
     box-shadow: inset -5px 0px 10px -5px #000;
 }
+
+
+.schema-table {
+    font-size:80%;
+}
+
+.schema-table td {
+    min-width:100px;
+    white-space: nowrap;
+}
+
+.schema-title td {
+    background-color:lightgrey;
+}
+
+.schema-name td {
+    background-color:lightgrey;
+}
+
+.extra-info {
+    display:none;
+}
