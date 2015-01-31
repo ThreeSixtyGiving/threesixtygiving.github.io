@@ -79,3 +79,13 @@
 .extra-info {
     display:none;
 }
+
+.reference-table .col-title {
+    font-size:80%;
+    white-space: nowrap;
+    vertical-align:top;   
+}
+
+.reference-table tr {
+    border-bottom:1px solid grey;
+}

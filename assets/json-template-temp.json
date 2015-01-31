@@ -1,0 +1,182 @@
+{
+  "__notes":"This template is manually refreshed. It may not reflect the latest status of the schema. Last updated 31st Jan 2015.",
+  "id": "",
+  "title": "",
+  "description": "",
+  "url": "",
+  "currency": "GBP",
+  "plannedDates": [
+    {
+      "title": "",
+      "startDate": "",
+      "endDate": "",
+      "duration": "",
+      "description": "",
+      "dateModified": ""
+    }
+  ],
+  "amountAppliedFor": 0,
+  "amountAwarded": 0,
+  "amountDisbursed": 0,
+  "awardDate": [
+    {
+      "title": "",
+      "startDate": "",
+      "endDate": "",
+      "duration": "",
+      "description": "",
+      "dateModified": ""
+    }
+  ],
+  "actualDates": [
+    {
+      "title": "",
+      "startDate": "",
+      "endDate": "",
+      "duration": "",
+      "description": "",
+      "dateModified": ""
+    }
+  ],
+  "recipientOrganization": [
+    {
+      "id": "",
+      "name": "",
+      "contactName": "",
+      "charityNumber": "",
+      "companyNumber": "",
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "addressCountry": "",
+      "postalCode": "",
+      "telephone": "",
+      "alternateName": "",
+      "email": "",
+      "description": "",
+      "organisationType": "Registered Charity",
+      "url": "",
+      "location": [],
+      "dateModified": ""
+    }
+  ],
+  "beneficiaryLocation": [
+    {
+      "id": "",
+      "name": null,
+      "countryCode": "GB",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "geoCode": null,
+      "geoCodeType": null,
+      "dateModified": ""
+    }
+  ],
+  "fundingOrganization": [
+    {
+      "id": "",
+      "name": "",
+      "contactName": "",
+      "charityNumber": "",
+      "companyNumber": "",
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "addressCountry": "",
+      "postalCode": "",
+      "telephone": "",
+      "alternateName": "",
+      "email": "",
+      "description": "",
+      "organisationType": "Registered Charity",
+      "url": "",
+      "location": [],
+      "dateModified": ""
+    }
+  ],
+  "fromOpenCall": "Yes",
+  "grantProgramme": [
+    {
+      "code": "",
+      "title": null,
+      "description": null,
+      "url": null,
+      "dateModified": ""
+    }
+  ],
+  "fundingType": [
+    {
+      "vocabulary": "",
+      "code": "",
+      "title": null,
+      "description": null,
+      "url": null,
+      "dateModified": ""
+    }
+  ],
+  "classifications": [
+    {
+      "vocabulary": "",
+      "code": "",
+      "title": null,
+      "description": null,
+      "url": null,
+      "dateModified": ""
+    }
+  ],
+  "relatedDocument": [
+    {
+      "id": "",
+      "title": null,
+      "url": null,
+      "description": null,
+      "documentType": null,
+      "dateModified": ""
+    }
+  ],
+  "applicationTransaction": [
+    {
+      "id": "",
+      "transactionDate": "",
+      "currency": "GBP",
+      "value": 0,
+      "valueDate": null,
+      "description": null,
+      "provider": null,
+      "recipient": null,
+      "dateModified": ""
+    }
+  ],
+  "commitmentTransaction": [
+    {
+      "id": "",
+      "transactionDate": "",
+      "currency": "GBP",
+      "value": 0,
+      "valueDate": null,
+      "description": null,
+      "provider": null,
+      "recipient": null,
+      "dateModified": ""
+    }
+  ],
+  "disbursementTransaction": [
+    {
+      "id": "",
+      "transactionDate": "",
+      "currency": "GBP",
+      "value": 0,
+      "valueDate": null,
+      "description": null,
+      "provider": null,
+      "recipient": null,
+      "dateModified": ""
+    }
+  ],
+  "relatedActivity": [
+    ""
+  ],
+  "dateModified": "",
+  "dataSource": null
+}

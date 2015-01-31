@@ -32,6 +32,7 @@ The 360 Giving standard is defined by a modified [JSON Schema](http://json-schem
 
 At the root of the data model is a grant-making Activity. Activities have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
+#### JSON Schema
 The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360 Giving data into structured JSON data according to this schema. 
 
 You can view the JSON Schema below, or [fullscreen here](/js/docson/index.html#/assets/standard/schema/360-giving-schema.json). In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
