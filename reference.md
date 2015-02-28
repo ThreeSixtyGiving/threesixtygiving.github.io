@@ -62,7 +62,7 @@ A mapping between column titles and field names for the Summary Table is given b
     </tr>
 {% for field in site.data.360-summary-table-schema.fields %}
 <tr>
-    <td>{{ field.title }}</td>
+    <td>{{ field.title }} {%if field.required %}*{%endif%}</td>
     <td>{{ field.name }}</td>
 </tr>
 {% endfor %}
@@ -193,6 +193,7 @@ The [360 Bridge tool](/tools/) supports round-tripping of data between Summary s
 ## Schema documentation
 
 
+Identifiers are documented on the [identifiers](/identifiers/) pages.
 
 
 

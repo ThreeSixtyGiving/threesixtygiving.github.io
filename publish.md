@@ -12,13 +12,15 @@ Publishing 360 data is a simple process. This page will step you through the bas
 
 ## 1. Register as a publisher
 
-Drop a line to the [support team](/support/) to register as a new 360 Giving publisher, and to request a 360 Giving prefix.
+To get started with 360 Giving, register a publisher [through the online service here](http://data.threesixtygiving.org/user/register) and follow the instructions [from your dashboard](http://data.threesixtygiving.org/dashboard) to create an organisation record.
 
-You will need your prefix to give all your grants globally unique identifiers. 
+This process takes just a few minutes, and in the process you will be able to claim your **360 Giving prefix** which is used to create unique identifiers for your grants.
 
-(A self-service registration system is coming soon).
+You can also drop a line to the [support team](/support/) to get their help in registering and getting started. 
 
 ## 2. Choose your template
+
+There are three main ways to provide your data. Most people choose the **summary spreadsheet**. The other options are for intermediate and advanced users.
 
 <div class="section">
 <div class="col span_1_of_3 center-text">
@@ -56,10 +58,11 @@ The [360 Bridge tools](/tools/) can be used to convert between different formats
 
 ## 3. Fill in your grants data
 
-If you are using the JSON or multi-table templates, you should consult the schema reference for detailed definitions of each field. Users of the Summary Spreadsheet can find a description of each of the fields below. 
+The following guidance is for users of the **summary spreadsheet**. Users of other formats should review the [schema reference](/docs/).
 
-You might fill in the template by copying data manually - but in most cases it is possible to automatically fill in this template from your existing data. The best way to do this depends on how you currently manage your datasets. Contact the [support team](/support/) for impartial and free guidance on the best options.
+Below you can find a definition of each of the summary spreadsheet fields. You should make sure you provide data for each of the shaded 'required' fields. All of the other fields are optional. 
 
+You can re-order the columns as you wish, but you should not rename any of the columns. 
 
 ### Field definitions
 
@@ -69,13 +72,20 @@ You might fill in the template by copying data manually - but in most cases it i
         <th>Description</th>
     </tr>
 {% for field in site.data.360-summary-table-schema.fields %}
-<tr>
+<tr {%if field.required %}class="required_field"{%endif%}>
     <td class="col-title">{{ field.title }}</td>
     <td class="col-desc">{{ field.description | markdownify }}</br><span class="extra-info">{{field.type}} {{field.format}}</span></td>
 </tr>
 {% endfor %}
 </table>
 
+### How to complete the template
+
+It is possible to fill in the template by copying data manually - but in most cases it is possible to automate the population of a dataset from your existing data.
+
+For example, if you use a database, a custom export could be configured to output data in this format, or if you keep data in spreadsheets, custom formula could be used to convert your data. 
+
+The best way to do this depends on how you currently manage your data. Contact the [support team](/support/) for impartial and free guidance on the different options.
 
 ## 4. Check your data
 

@@ -89,3 +89,8 @@
 .reference-table tr {
     border-bottom:1px solid grey;
 }
+
+
+.required_field {
+    background-color:#D2F2CB;
+}
