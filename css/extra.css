@@ -11,6 +11,12 @@
     text-align:center;
 }
 
+/*Hide the TOC when on narrow screen */
+@media only screen and (max-width: 1070px) {
+ #toc {
+     display:none
+ }    
+}
 
 #toc {
     top: 0px;

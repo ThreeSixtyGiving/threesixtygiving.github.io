@@ -6,9 +6,12 @@ weight: 2
 ---
 <div id="toc"></div>
 
-Publishing 360 data is a simple process. This page will step you through the basics. 
+We're aiming to make publishing standardised, re-usable grants data as easy as possible. This page describes the main things you need to know to get your data published in a **7-step process**.
 
-(Page under development - contact [support](/support/)) with any questions.
+We're continually improving our documentation, so we welcome your questions and feedback.
+
+Contact [support](/support/)) with any questions or feedback you might have.
+
 
 
 ## 1. Register as a publisher
@@ -128,7 +131,9 @@ Other licenses may place restrictions on your data which prevent it being re-use
 
 ## 7. Tell us about it
 
-Drop us a line to tell us about your data. Soon we will have a registry where you can register your data direct.
+Head back to the [data registry you signed up to in Step 1](http://data.threesixtygiving.org) and log-in. From your dashboard you will be able to create a dataset record letting the world know about your published grants data. 
+
+You can also drop a line to the support team again and we'll help you explore ways of visualising and using your data.
 
 
 
