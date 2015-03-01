@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Identifiers
-permalink: /Identifiers/
+permalink: /identifiers/
 ---
 
 ## Why we need identifiers
