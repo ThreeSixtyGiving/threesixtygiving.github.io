@@ -2,6 +2,7 @@
 layout: page
 title: Tools
 permalink: /tools/
+weight: 5
 ---
 
 # 360 Giving Tools

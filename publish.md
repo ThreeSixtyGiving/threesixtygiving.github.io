@@ -2,6 +2,7 @@
 layout: page
 title: Publish
 permalink: /publish/
+weight: 2
 ---
 <div id="toc"></div>
 

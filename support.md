@@ -2,6 +2,7 @@
 layout: page
 title: Support
 permalink: /support/
+weight: 6
 ---
 
 ## Technical support 

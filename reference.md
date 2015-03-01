@@ -2,6 +2,7 @@
 layout: page
 title: Reference
 permalink: /docs/
+weight: 3
 ---
 
 <div id="toc"></div>
@@ -174,6 +175,7 @@ The summary spreadsheet Excel template (see above) also includes additional tabs
 
 In future, the machine-readable multi-table template will be provided as a data package. 
 
+<!--
 TODO: Provide Excel and Datapackage multi-table templates
 
 TODO: WORKED EXAMPLE HERE
@@ -181,6 +183,7 @@ TODO: WORKED EXAMPLE HERE
 TODO: To generate a flattened template
 
 TODO: To convert a flattened template
+-->
 
 ### JSON
 
