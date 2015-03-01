@@ -145,7 +145,7 @@ can by represented in the Activity table under the column name:
 
 or the column title
 
-* ```Related Document:Web Address```
+* ```Related Document:URL```
 
 The naming convention for field names is to:
 
