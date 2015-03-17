@@ -58,13 +58,17 @@ A mapping between column titles and field names for the Summary Table is given b
 
 <table>
     <tr>
-        <th>Column Title</th>
-        <th>Field Name</th>
+        <th>Column title</th>
+        <th>Field name</th>
+        <th>Required</th>
     </tr>
 {% for field in site.data.360-summary-table-schema.fields %}
 <tr>
-    <td>{{ field.title }} {%if field.required %}*{%endif%}</td>
+    <td>{{ field.title }}</td>
     <td>{{ field.name }}</td>
+    <td>{% if field.required %} <b>yes</b>
+        {% else %} no
+        {% endif %}</td>
 </tr>
 {% endfor %}
 </table>

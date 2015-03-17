@@ -15,7 +15,7 @@
 @media only screen and (max-width: 1070px) {
  #toc {
      display:none
- }    
+ }
 }
 
 #toc {
@@ -89,7 +89,7 @@
 .reference-table .col-title {
     font-size:80%;
     white-space: nowrap;
-    vertical-align:top;   
+    vertical-align:top;
 }
 
 .reference-table tr {
@@ -100,3 +100,16 @@
 .required_field {
     background-color:#D2F2CB;
 }
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td {
+    padding: 5px;
+}
+
