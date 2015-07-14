@@ -18,7 +18,7 @@ and
 
 >indigo-trust
 
-all refer to the same organisation, computers find this is lot trickier. 
+... all refer to the same organisation, computers find this is lot trickier. 
 
 That's why 360 Giving requires you to give identifiers to:
 
@@ -32,7 +32,7 @@ These go in ```Identifier``` columns alongside human-readable text descriptions 
 
 ## Creating identifiers
 
-Often you will already have identifiers in your own records. For example, you might assign a numbers to each application or grant, or you might record a reference number for a funding recipient.
+Often you will already have identifiers in your own records. For example, you might assign a number to each application or grant, or you might record a reference ID for a funding recipient.
 
 You can use these existing **internal identifiers** in constructing the identifiers that you will use in your 360 Giving data files. 
 
@@ -46,7 +46,7 @@ For organisation identifiers, follow the [organisation identifier](#organisation
 
 ## Using your identifiers
 
-We use simple text identifiers in 360 Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' when uploading photos and videos to social media sites. 
+We use simple text identifiers in 360 Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
 
 > For example, some of the development of 360 Giving was funded by grant '360G-indigotrust:IND233'. If you [search the web for that identifier](https://www.google.co.uk/search?q=360G-indigotrust%3AIND233), you will find this site. If there were project reports published online about this grant, or photos and videos, you might be able to discover those as well. If you just searched for the **internal identifer** [IND233](https://www.google.co.uk/search?q=IND233) you would have to comb through details of all sorts of other things identified as IND233 before finding any information about the grant.
 
@@ -70,9 +70,12 @@ For example, if your prefix is ```360G-xyztrust``` and you have a grant identifi
 
 >360G-xyztrust-123
 
-If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_).
-
 There are no set rules on the separator to use between your prefix and the internal identifier but we recommend using a hyphen (-).
+
+If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
+
+>360G-xyztrust-123_ABC
+
 
 # Organisation Identifier
 
@@ -88,7 +91,7 @@ Some recipients will have official registration numbers that can be used to iden
 
 To give users of 360 Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers.
 
-This can be summarised through the following process. As soon as a step gives you an identifier, you can stop at that step and use the given identifier. 
+This can be summarised through the following process. As soon as a step gives you an identifier, you can stop use the given identifier. 
 
 1. If you have a **registered company number** for the organisation, use the prefix 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
 
