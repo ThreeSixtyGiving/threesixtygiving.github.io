@@ -21,15 +21,15 @@ If you are just getting started with the 360 Giving data standard, consult the [
 
 There are three main formats available for representing 360 Giving data.
 
-1. **Summary spreadsheet**: provided with user-friendly **column titles**, and for recording one grant per row. This is the most common template that publishers choose. CSV, Excel, Documentation
+1. **Summary spreadsheet**: provided with user-friendly **column titles**, and for recording one grant per row. This is the most common template that publishers choose.
 2. **Multi-table data package** (under development): for when you have more in-depth information to share, such as the location of multiple beneficiary groups, or detailed payments schedules. Provided with machine-readable field names.  <i class="fa fa-envelope-o"></i> [ Get in touch](/support/) if you would like to use this format. 
-3. **JSON Schema**: for providing a structured representation of your data direct from your internal databases or via an API. Ideal for direct use by developers building visualisations and web apps. Schema
+3. **JSON Schema**: for providing a structured representation of your data direct from your internal databases or via an API. Ideal for direct use by developers building visualisations and web apps.
 
 The [‘360 Bridge’ tool](/tools/) will convert between each of these template formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
 ### Data model & serialisation
 
-The 360 Giving standard is defined by a modified [JSON Schema](http://json-schema.org/). This describes the entities that can be described using the standard, and the properties recognised by the standard. 
+The 360 Giving standard is defined by a modified [JSON Schema](http://json-schema.org/). This details the entities that can be described using the standard, and the properties it recognises. 
 
 At the root of the data model is a grant-making Activity. Activities have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
@@ -44,7 +44,7 @@ You can view the JSON Schema below, or [fullscreen here](/js/docson/index.html#/
 </script>
 </div>
 
-To make it possible to work with 360 Giving data in everyday desktop tools, such as Excel or OpenOffice Calc, the standard provides a number of flattened serializations. These are created using the ‘360 bridge’ tool. 
+To make it possible to work with 360 Giving data in everyday desktop tools, such as Excel or OpenOffice Calc, the standard provides a number of flattened serializations. These are created using the [‘360 Bridge’ tool](/tools/). 
 
 ### Field names and titles
 
@@ -121,7 +121,8 @@ You can download the Summary Template as a [CSV File](/assets/standard/schema/su
 You must:
 
 * **Read the column definitions carefully and follow the format they request** - for example, formatting identifiers and dates according to the standard. Full reference information is provided below.
-* **Provide an identifier for each grant, and whenever the status of a grant changes, update this row, including updating the last modified date**
+* **Provide an identifier** for each grant
+* **Update the last modified date** whenever the status of a grant changes
 
 You can:
 
