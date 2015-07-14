@@ -6,11 +6,11 @@ weight: 2
 ---
 <div id="toc"></div>
 
-We're aiming to make publishing standardised, re-usable grants data as easy as possible. This page describes the main things you need to know to get your data published in a **7-step process**.
+360 Giving aims to make publishing standardised, re-usable grants data as easy as possible. This page describes the main things you need to know to get your data published in a **7-step process**.
 
 We're continually improving our documentation, so we welcome your questions and feedback.
 
-Contact [support](/support/)) with any questions or feedback you might have.
+Contact [support](/support/) with any questions or feedback you might have.
 
 
 
@@ -18,7 +18,7 @@ Contact [support](/support/)) with any questions or feedback you might have.
 
 To get started with 360 Giving, register a publisher [through the online service here](http://data.threesixtygiving.org/user/register) and follow the instructions [from your dashboard](http://data.threesixtygiving.org/dashboard) to create an organisation record.
 
-This process takes just a few minutes, and in the process you will be able to claim your **360 Giving prefix** which is used to create unique identifiers for your grants.
+This takes just a few minutes, and in the process you will be able to claim your **360 Giving prefix** which is used to create unique identifiers for your grants.
 
 You can also drop a line to the [support team](/support/) to get their help in registering and getting started. 
 
@@ -64,7 +64,7 @@ The [360 Bridge tools](/tools/) can be used to convert between different formats
 
 The following guidance is for users of the **summary spreadsheet**. Users of other formats should review the [schema reference](/docs/).
 
-Below you can find a definition of each of the summary spreadsheet fields. You should make sure you provide data for each of the shaded 'required' fields. All of the other fields are optional. 
+Below you can find a definition of each of the summary spreadsheet fields. You should make sure you provide data for each of the 'required' fields (shaded in green). All of the other fields are optional. 
 
 You can re-order the columns as you wish, but you should not rename any of the columns. 
 
@@ -97,7 +97,7 @@ The best way to do this depends on how you currently manage your data. Contact t
 
 We will soon provide online validation tools that will let you check the technical quality of your data.
 
-For now - when you are ready with a file, e-mail it over to support@threesixtygiving.org and we'll take a look and give you feedback on it.
+For now - when you are ready with a file, contact the [support team](/support/) and we'll take a look and give you feedback on it.
 
 ### Privacy
 
